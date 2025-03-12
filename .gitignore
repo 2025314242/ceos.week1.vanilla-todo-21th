@@ -1,0 +1,5 @@
+.vscode
+.venv
+Pipfile*
+
+node_modules/
