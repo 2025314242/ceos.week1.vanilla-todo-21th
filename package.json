@@ -1,0 +1,22 @@
+{
+  "name": "ceos.week1.vanilla-todo-21th",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "vite": "^6.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@graduate:2025314242/ceos.week1.vanilla-todo-21th.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
