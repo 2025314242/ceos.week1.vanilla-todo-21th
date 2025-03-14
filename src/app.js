@@ -31,17 +31,14 @@ function init() {
   form.id = 'todo-form';
 
   const emoji = document.createElement('span');
-  emoji.className = 'emoji';
   emoji.textContent = CONSTANTS.EMOJI;
 
   const input = document.createElement('input');
   input.type = 'text';
-  input.className = 'input';
   input.placeholder = CONSTANTS.PLACEHOLDER;
 
   const addBtn = document.createElement('button');
   addBtn.type = 'submit';
-  addBtn.className = 'button';
   addBtn.textContent = CONSTANTS.ADD;
 
   form.appendChild(emoji);
