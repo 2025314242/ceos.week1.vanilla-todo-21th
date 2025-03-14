@@ -20,9 +20,11 @@ function init() {
   main.id = 'main';
 
   const title = document.createElement('h1');
+  title.id = 'title';
   title.textContent = CONSTANTS.TITLE;
 
   const dateElem = document.createElement('p');
+  dateElem.id = 'date';
   dateElem.textContent = today;
 
   const form = document.createElement('form');
