@@ -16,3 +16,7 @@
             storage.js # Manage local storage
             todo.js # CRUD todo item
         app.js # Initialize
+
+## Usage
+
+    https://vanilla-todo-21th-kwondu.vercel.app/
