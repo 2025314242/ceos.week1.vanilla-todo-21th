@@ -23,9 +23,6 @@ export function renderTodoList(date) {
     const textSpan = document.createElement('span');
     textSpan.className = 'text';
     textSpan.textContent = todo.text;
-    if (todo.checked) {
-      textSpan.style.textDecoration = 'line-through';
-    }
 
     const deleteBtn = document.createElement('button');
     deleteBtn.className = 'button';
