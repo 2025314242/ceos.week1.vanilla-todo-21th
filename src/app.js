@@ -13,6 +13,7 @@ function init() {
   });
 
   const header = document.createElement('header');
+  header.className = 'header';
   header.textContent = CONSTANTS.HEADER;
 
   const main = document.createElement('div');

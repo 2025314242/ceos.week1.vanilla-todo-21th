@@ -9,9 +9,11 @@ export function renderTodoList(date) {
   const todos = loadTodos(date);
   todos.forEach((todo, index) => {
     const li = document.createElement('li');
+    li.className = 'todo';
 
     const checkbox = document.createElement('input');
     checkbox.type = 'checkbox';
+    checkbox.className = 'checkbox';
     checkbox.checked = todo.checked;
     checkbox.addEventListener('change', () => {
       toggleTodo(date, index);
@@ -19,12 +21,14 @@ export function renderTodoList(date) {
     });
 
     const textSpan = document.createElement('span');
+    textSpan.className = 'text';
     textSpan.textContent = todo.text;
     if (todo.checked) {
       textSpan.style.textDecoration = 'line-through';
     }
 
     const deleteBtn = document.createElement('button');
+    deleteBtn.className = 'button';
     deleteBtn.textContent = CONSTANTS.DELETE;
     deleteBtn.addEventListener('click', () => {
       removeTodo(date, index);
